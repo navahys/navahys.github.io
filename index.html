@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포털 사이트로 이동</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f5;
+        }
+        .container {
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            font-size: 2.5rem;
+        }
+        .image-buttons {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+            gap: 20px;
+        }
+        .image-buttons img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .image-buttons img:hover {
+            transform: scale(1.1);
+        }
+        .extra-space img {
+            width: 300px;
+            height: 200px;
+            margin-top: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>포털 사이트로 이동</h1>
+        <div class="image-buttons">
+            <a href="https://www.google.com" target="_blank">
+                <img src="YOUR_GOOGLE_IMAGE_PATH.webp" alt="Google">
+            </a>
+            <a href="https://www.naver.com" target="_blank">
+                <img src="YOUR_NAVER_IMAGE_PATH.webp" alt="Naver">
+            </a>
+            <a href="https://www.daum.net" target="_blank">
+                <img src="YOUR_DAUM_IMAGE_PATH.webp" alt="Daum">
+            </a>
+        </div>
+        <div class="extra-space">
+            <img src="YOUR_EXTRA_IMAGE_PATH.webp" alt="Additional Image">
+        </div>
+    </div>
+</body>
+</html>
